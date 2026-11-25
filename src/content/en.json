@@ -1,0 +1,840 @@
+{
+ "nav": {
+  "story": "About",
+  "kitchen": "Kitchen",
+  "menu": "Menu",
+  "evening": "Evening",
+  "visit": "Visit",
+  "reserve": "Book a table",
+  "events": "Events"
+ },
+ "heroKicker": "Italian & author’s cuisine · Tashkent",
+ "heroTitle1": "Italian cooking,",
+ "heroTitle2": "in plain view.",
+ "heroSub": "Second floor, Infinity Luxury Residence. An open kitchen, panoramic windows and breakfast from nine.",
+ "reserveTable": "Book a table",
+ "viewMenu": "See the menu",
+ "strip": [
+  "Daily from 09:00",
+  "Breakfast until 12:50",
+  "Istiqbol 41"
+ ],
+ "s01": {
+  "label": "The restaurant",
+  "title": "From the first coffee to the last table.",
+  "body": "On the second floor of Infinity Luxury Residence, ORA cooks Italian and author’s dishes in a kitchen open to the room, lit by panoramic windows and stained glass. Come for a breakfast meeting, a long lunch or dinner with the family.",
+  "facts": [
+   {
+    "v": "180",
+    "k": "seats"
+   },
+   {
+    "v": "09:00",
+    "k": "open every day"
+   },
+   {
+    "v": "2025",
+    "k": "opened"
+   }
+  ]
+ },
+ "gallery": "Gallery",
+ "s02": {
+  "label": "The room",
+  "title": "Clean lines, panoramic windows, stained glass.",
+  "body": ""
+ },
+ "s04": {
+  "label": "Open kitchen",
+  "title": "No wall between the kitchen and the table.",
+  "body": "Brand chef Islom Kurbonov brings the chef’s table sets out himself: salmon with three kinds of caviar, braised rib with buckwheat popcorn.",
+  "cap": "Chef’s table · salmon with caviar"
+ },
+ "s06": {
+  "label": "Breakfast",
+  "title": "Breakfast, served until 12:50.",
+  "body": "Sixteen dishes, from millet porridge to an omelette with black truffle and stracciatella."
+ },
+ "s07": {
+  "label": "From the menu",
+  "title": "Start with the ravioli.",
+  "cap1": "Salmon and prawn ravioli",
+  "cap2": "Braised rib with carrot cream",
+  "note": "150 000 UZS",
+  "note2": "275 000 UZS"
+ },
+ "s08": {
+  "label": "Bar",
+  "title": "Detox in the morning, wine at night.",
+  "body": "Fresh juices and lemonades by day, signature cocktails later on, and a wine list at the centre of it all."
+ },
+ "s10": {
+  "label": "Day into evening",
+  "day": "Day",
+  "evening": "Evening",
+  "body": ""
+ },
+ "s11": {
+  "label": "Evening",
+  "title": "Dinner for two, or for everyone.",
+  "body": "Romantic dinners, family evenings, business dinners. Open until 23:00, and until 23:45 on Friday and Saturday."
+ },
+ "s12": {
+  "label": "Reservations",
+  "title": "Book a table",
+  "body": "Seven ways to reach us. Pick the one you already use.",
+  "trust": [
+   {
+    "k": "Tripadvisor",
+    "v": "5.0 · 19 reviews"
+   },
+   {
+    "k": "2GIS",
+    "v": "4.9 · 24 ratings"
+   },
+   {
+    "k": "Ultima Guide 2026",
+    "v": "Best interior"
+   }
+  ]
+ },
+ "visit": {
+  "label": "Find us",
+  "cells": [
+   {
+    "k": "Address",
+    "lines": [
+     {
+      "v": "Istiqbol St 41"
+     },
+     {
+      "v": "Infinity Luxury Residence, 2nd floor"
+     },
+     {
+      "v": "Yashnabad district, Tashkent"
+     }
+    ]
+   },
+   {
+    "k": "Opening hours",
+    "lines": [
+     {
+      "v": "Sun–Thu 09:00–23:00"
+     },
+     {
+      "v": "Fri–Sat 09:00–23:45"
+     },
+     {
+      "v": "Breakfast 09:00–12:50"
+     }
+    ]
+   },
+   {
+    "k": "Reservations",
+    "lines": [
+     {
+      "v": "Telegram @Oratashkent",
+      "href": "https://t.me/Oratashkent"
+     },
+     {
+      "v": "Book online · Yandex",
+      "href": "https://eats.yandex.com/uz/offline_place/d8c768e1b2df4127a69f1031920b160f?slug=ora"
+     },
+     {
+      "v": "+998 78 122 99 22",
+      "href": "tel:+998781229922"
+     },
+     {
+      "v": "+998 95 418 12 12",
+      "href": "tel:+998954181212"
+     }
+    ]
+   }
+  ],
+  "directions": "Get directions",
+  "goodLabel": "Good to know",
+  "good": [
+   "Breakfast 09:00–12:50",
+   "Kids’ corner & highchairs",
+   "Dog friendly",
+   "Ramp & wide lift",
+   "Parking available",
+   "Summer terrace",
+   "Menu in English",
+   "Wi-Fi",
+   "Card, cash & QR",
+   "Delivery & takeaway"
+  ],
+  "socialLabel": "Follow ORA",
+  "social": [
+   {
+    "k": "Instagram",
+    "v": "@ora.tashkent",
+    "href": "https://www.instagram.com/ora.tashkent/"
+   },
+   {
+    "k": "Telegram",
+    "v": "@Oratashkent",
+    "href": "https://t.me/Oratashkent"
+   }
+  ]
+ },
+ "footer": {
+  "rights": "© ORA, Tashkent",
+  "imagery": "Film sequences on this site are illustrations, not footage of ORA."
+ },
+ "menu": {
+  "title": "Menu",
+  "back": "Home",
+  "notice": "Prices in UZS, from ORA’s menu on Yandex Maps (updated 6 October 2026). This is the delivery menu; dishes and prices in the restaurant may differ.",
+  "cats": [
+   {
+    "f": "breakfast",
+    "name": "Breakfast",
+    "items": [
+     {
+      "n": "English breakfast",
+      "p": "130 000",
+      "d": "350 g",
+      "i": "01-english-breakfast.jpg"
+     },
+     {
+      "n": "Benedict Atlantic",
+      "p": "135 000",
+      "d": "230 g",
+      "i": "02-eggs-benedict-atlantic.jpg"
+     },
+     {
+      "n": "Crêpe with condensed-milk cream",
+      "p": "80 000",
+      "d": "160 g",
+      "i": "03-cr-pe-with-condensed-milk-cream.jpg"
+     },
+     {
+      "n": "Crêpe with salmon",
+      "p": "130 000",
+      "d": "170 g",
+      "i": "04-cr-pe-with-salmon.jpg"
+     },
+     {
+      "n": "Granola",
+      "p": "115 000",
+      "d": "115 g",
+      "i": "05-granola.jpg"
+     },
+     {
+      "n": "Potato pancake Atlantic",
+      "p": "125 000",
+      "d": "260 g",
+      "i": "06-potato-pancake-atlantic.jpg"
+     },
+     {
+      "n": "Healthy breakfast",
+      "p": "130 000",
+      "d": "290 g",
+      "i": "07-healthy-breakfast.jpg"
+     },
+     {
+      "n": "Chef’s breakfast",
+      "p": "140 000",
+      "d": "300 g",
+      "i": "08-chef-s-breakfast.jpg"
+     },
+     {
+      "n": "Millet porridge",
+      "p": "85 000",
+      "d": "375 g",
+      "i": "09-millet-porridge.jpg"
+     },
+     {
+      "n": "Rice porridge with berries",
+      "p": "85 000",
+      "d": "300 g",
+      "i": "10-rice-porridge-with-berries.jpg"
+     },
+     {
+      "n": "Classic omelette",
+      "p": "50 000",
+      "d": "170 g",
+      "i": "11-classic-omelette.jpg"
+     },
+     {
+      "n": "Omelette with vegetables",
+      "p": "85 000",
+      "d": "285 g",
+      "i": "12-omelette-with-vegetables.jpg"
+     },
+     {
+      "n": "Cheese omelette with Parmesan espuma",
+      "p": "90 000",
+      "d": "230 g",
+      "i": "13-cheese-omelette-with-parmesan-espuma.jpg"
+     },
+     {
+      "n": "Omelette with black truffle and stracciatella",
+      "p": "105 000",
+      "d": "225 g",
+      "i": "14-omelette-with-black-truffle-and-stracciatella.jpg"
+     },
+     {
+      "n": "Syrniki with mascarpone cream",
+      "p": "95 000",
+      "d": "185 g",
+      "i": "15-syrniki-with-mascarpone-cream.jpg"
+     },
+     {
+      "n": "French toast with salted caramel",
+      "p": "125 000",
+      "d": "200 g",
+      "i": "16-french-toast-with-salted-caramel.jpg"
+     }
+    ]
+   },
+   {
+    "f": "plating",
+    "name": "ORA × Ultima",
+    "items": [
+     {
+      "n": "Scallop with duxelles and black truffle",
+      "p": "280 000",
+      "d": "220 g",
+      "i": "17-scallop-with-duxelles-and-black-truffle.jpg"
+     },
+     {
+      "n": "Green bowl",
+      "p": "105 000",
+      "d": "220 g",
+      "i": "18-green-bowl.jpg"
+     },
+     {
+      "n": "Salmon and prawn ravioli",
+      "p": "150 000",
+      "d": "180 g",
+      "i": "19-salmon-and-prawn-ravioli.jpg"
+     },
+     {
+      "n": "Braised rib with carrot cream",
+      "p": "275 000",
+      "d": "230 g",
+      "i": "80-braised-rib-with-carrot-cream.jpg"
+     }
+    ]
+   },
+   {
+    "f": "kitchen",
+    "name": "Cold starters",
+    "items": [
+     {
+      "n": "Cheese selection",
+      "p": "160 000",
+      "d": "210 g",
+      "i": "21-cheese-selection.jpg"
+     },
+     {
+      "n": "Edamame",
+      "p": "75 000",
+      "d": "160 g",
+      "i": "22-edamame.jpg"
+     },
+     {
+      "n": "Creamy eel with lime and coconut",
+      "p": "135 000",
+      "d": "160 g",
+      "i": "23-creamy-eel-with-lime-and-coconut.jpg"
+     }
+    ]
+   },
+   {
+    "f": "service",
+    "name": "Hot starters",
+    "items": [
+     {
+      "n": "Grilled prawns, ginger sauce",
+      "p": "155 000",
+      "d": "160 g",
+      "i": "81-grilled-prawns-ginger-sauce.jpg"
+     },
+     {
+      "n": "Prawn tempura, spicy aioli",
+      "p": "145 000",
+      "d": "180 g",
+      "i": "82-prawn-tempura-spicy-aioli.jpg"
+     },
+     {
+      "n": "Chicken strips",
+      "p": "80 000",
+      "d": "240 g",
+      "i": "83-chicken-strips.jpg"
+     },
+     {
+      "n": "Crispy aubergine",
+      "p": "100 000",
+      "d": "300 g",
+      "i": "84-crispy-aubergine.jpg"
+     }
+    ]
+   },
+   {
+    "f": "light",
+    "name": "Salads & soup",
+    "items": [
+     {
+      "n": "Chicken bowl",
+      "p": "110 000",
+      "d": "350 g",
+      "i": "28-chicken-bowl.jpg"
+     },
+     {
+      "n": "Green salad with sesame dressing",
+      "p": "130 000",
+      "d": "300 g",
+      "i": "29-green-salad-with-sesame-dressing.jpg"
+     },
+     {
+      "n": "ORA vegetable salad",
+      "p": "120 000",
+      "d": "230 g",
+      "i": "30-ora-vegetable-salad.jpg"
+     },
+     {
+      "n": "Chicken and quinoa salad",
+      "p": "115 000",
+      "d": "250 g",
+      "i": "31-chicken-and-quinoa-salad.jpg"
+     },
+     {
+      "n": "Pumpkin cream soup",
+      "p": "75 000",
+      "d": "300 g",
+      "i": "32-pumpkin-cream-soup.jpg"
+     }
+    ]
+   },
+   {
+    "f": "pasta",
+    "name": "Pasta & risotto",
+    "items": [
+     {
+      "n": "Prawn pasta",
+      "p": "135 000",
+      "d": "320 g",
+      "i": "33-prawn-pasta.jpg"
+     },
+     {
+      "n": "Chicken pasta, ORA Alfredo",
+      "p": "120 000",
+      "d": "300 g",
+      "i": "34-chicken-pasta-ora-alfredo.jpg"
+     },
+     {
+      "n": "Porcini ravioli",
+      "p": "150 000",
+      "d": "210 g",
+      "i": "35-porcini-ravioli.jpg"
+     },
+     {
+      "n": "Veal ravioli",
+      "p": "140 000",
+      "d": "300 g",
+      "i": "36-veal-ravioli.jpg"
+     },
+     {
+      "n": "Truffle risotto",
+      "p": "145 000",
+      "d": "250 g",
+      "i": "37-truffle-risotto.jpg"
+     }
+    ]
+   },
+   {
+    "f": "fish",
+    "name": "Mains",
+    "items": [
+     {
+      "n": "ORA beefsteak",
+      "p": "145 000",
+      "d": "340 g",
+      "i": "38-ora-beefsteak.jpg"
+     },
+     {
+      "n": "ORA burger",
+      "p": "145 000",
+      "d": "340 g",
+      "i": "39-ora-burger.jpg"
+     },
+     {
+      "n": "Chicken cutlets with Parmesan mousse",
+      "p": "100 000",
+      "d": "240 g",
+      "i": "40-chicken-cutlets-with-parmesan-mousse.jpg"
+     },
+     {
+      "n": "Veal medallions",
+      "p": "250 000",
+      "d": "300 g",
+      "i": "41-veal-medallions.jpg"
+     },
+     {
+      "n": "Salmon with beurre blanc",
+      "p": "240 000",
+      "d": "240 g",
+      "i": "42-salmon-with-beurre-blanc.jpg"
+     },
+     {
+      "n": "Filet mignon",
+      "p": "250 000",
+      "d": "260 g",
+      "i": "43-filet-mignon.jpg"
+     },
+     {
+      "n": "Chicken with jus",
+      "p": "115 000",
+      "d": "320 g",
+      "i": "44-chicken-with-jus.jpg"
+     }
+    ]
+   },
+   {
+    "f": "dolly",
+    "name": "Sides",
+    "items": [
+     {
+      "n": "Sweet potato fries with Parmesan",
+      "p": "75 000",
+      "d": "150 g",
+      "i": "45-sweet-potato-fries-with-parmesan.jpg"
+     },
+     {
+      "n": "Roasted vegetables",
+      "p": "80 000",
+      "d": "220 g",
+      "i": "46-roasted-vegetables.jpg"
+     },
+     {
+      "n": "Fries with espuma and Parmesan",
+      "p": "70 000",
+      "d": "150 g",
+      "i": "47-fries-with-espuma-and-parmesan.jpg"
+     },
+     {
+      "n": "Mashed potatoes",
+      "p": "50 000",
+      "d": "150 g",
+      "i": "48-mashed-potatoes.jpg"
+     },
+     {
+      "n": "Truffle mashed potatoes",
+      "p": "60 000",
+      "d": "150 g",
+      "i": "49-truffle-mashed-potatoes.jpg"
+     },
+     {
+      "n": "Asparagus with espuma and Parmesan",
+      "p": "130 000",
+      "d": "150 g",
+      "i": "50-asparagus-with-espuma-and-parmesan.jpg"
+     }
+    ]
+   },
+   {
+    "f": "dessert",
+    "name": "Desserts",
+    "items": [
+     {
+      "n": "Panna cotta",
+      "p": "90 000",
+      "d": "140 g",
+      "i": "51-panna-cotta.jpg"
+     },
+     {
+      "n": "Cheesecake",
+      "p": "75 000",
+      "d": "140 g",
+      "i": "52-cheesecake.jpg"
+     }
+    ]
+   },
+   {
+    "f": "interior",
+    "name": "Hot drinks",
+    "items": [
+     {
+      "n": "Americano",
+      "p": "35 000",
+      "d": "150 ml",
+      "i": "85-americano.jpg"
+     },
+     {
+      "n": "Cocoa",
+      "p": "65 000",
+      "d": "250 ml",
+      "i": "86-cocoa.jpg"
+     },
+     {
+      "n": "Cappuccino",
+      "p": "45 000",
+      "d": "250 ml",
+      "i": "87-cappuccino.jpg"
+     },
+     {
+      "n": "Latte",
+      "p": "45 000",
+      "d": "250 ml",
+      "i": "56-latte.jpg"
+     },
+     {
+      "n": "Flat white",
+      "p": "50 000",
+      "d": "250 ml",
+      "i": "57-flat-white.jpg"
+     }
+    ]
+   },
+   {
+    "f": "glass",
+    "name": "Cold drinks",
+    "items": [
+     {
+      "n": "Fresh orange juice",
+      "p": "80 000",
+      "d": "250 ml",
+      "i": "58-fresh-orange-juice.jpg"
+     },
+     {
+      "n": "Fresh grapefruit juice",
+      "p": "100 000",
+      "d": "250 ml",
+      "i": "59-fresh-grapefruit-juice.jpg"
+     },
+     {
+      "n": "Fresh carrot juice",
+      "p": "45 000",
+      "d": "250 ml",
+      "i": "60-fresh-carrot-juice.jpg"
+     },
+     {
+      "n": "Fresh apple juice",
+      "p": "50 000",
+      "d": "250 ml",
+      "i": "61-fresh-apple-juice.jpg"
+     },
+     {
+      "n": "Detox blueberry–banana–mint",
+      "p": "80 000",
+      "d": "250 ml",
+      "i": "62-detox-blueberry-banana-mint.jpg"
+     },
+     {
+      "n": "Detox calpis–sorrel",
+      "p": "65 000",
+      "d": "250 ml",
+      "i": "63-detox-calpis-sorrel.jpg"
+     },
+     {
+      "n": "Jasmine lemonade",
+      "p": "50 000",
+      "d": "350 ml",
+      "i": "64-jasmine-lemonade.jpg"
+     },
+     {
+      "n": "Calamansi–vanilla lemonade",
+      "p": "65 000",
+      "d": "350 ml",
+      "i": "65-calamansi-vanilla-lemonade.jpg"
+     },
+     {
+      "n": "Lime–basil lemonade",
+      "p": "55 000",
+      "d": "350 ml",
+      "i": "66-lime-basil-lemonade.jpg"
+     },
+     {
+      "n": "Chortoq still water",
+      "p": "30 000",
+      "d": "500 ml",
+      "i": "67-chortoq-still-water.jpg"
+     },
+     {
+      "n": "Chortoq sparkling water",
+      "p": "30 000",
+      "d": "500 ml",
+      "i": "68-chortoq-sparkling-water.jpg"
+     },
+     {
+      "n": "Coca-Cola",
+      "p": "38 000",
+      "d": "250 ml",
+      "i": "69-coca-cola.jpg"
+     }
+    ]
+   },
+   {
+    "f": "hero",
+    "name": "Extras",
+    "items": [
+     {
+      "n": "Half avocado",
+      "p": "30 000",
+      "d": "100 g",
+      "i": "70-half-avocado.jpg"
+     },
+     {
+      "n": "Blueberries",
+      "p": "40 000",
+      "d": "50 g",
+      "i": "71-blueberries.jpg"
+     },
+     {
+      "n": "Tiger prawns (3 pcs)",
+      "p": "50 000",
+      "d": "60 g",
+      "i": "72-tiger-prawns-3-pcs.jpg"
+     },
+     {
+      "n": "Condensed-milk cream",
+      "p": "30 000",
+      "d": "30 g",
+      "i": "73-condensed-milk-cream.jpg"
+     },
+     {
+      "n": "Raspberries",
+      "p": "50 000",
+      "d": "50 g",
+      "i": "74-raspberries.jpg"
+     },
+     {
+      "n": "Mortadella",
+      "p": "20 000",
+      "d": "30 g",
+      "i": "75-mortadella.jpg"
+     },
+     {
+      "n": "Cold-smoked salmon",
+      "p": "40 000",
+      "d": "30 g",
+      "i": "76-cold-smoked-salmon.jpg"
+     },
+     {
+      "n": "Feta",
+      "p": "18 000",
+      "d": "30 g",
+      "i": "77-feta.jpg"
+     },
+     {
+      "n": "Parmesan espuma",
+      "p": "25 000",
+      "d": "40 g",
+      "i": "78-parmesan-espuma.jpg"
+     },
+     {
+      "n": "Soft espuma",
+      "p": "25 000",
+      "d": "40 g",
+      "i": "79-soft-espuma.jpg"
+     }
+    ]
+   }
+  ],
+  "searchPh": "Search the menu",
+  "noResults": "No dishes match. Try another word.",
+  "askPrice": "Price on request",
+  "pdf": "Menu PDF · Ultima",
+  "bookOnline": "Book online · Yandex",
+  "tag": "From truffle risotto to panna cotta."
+ },
+ "form": {
+  "callAlt": "Prefer to call?",
+  "title": "Book a table",
+  "sub": "Choose a date and time. Telegram opens with your request ready to send, and we reply to confirm.",
+  "date": "Date",
+  "time": "Time",
+  "guests": "Guests",
+  "occasion": "Occasion",
+  "occasions": [
+   "Breakfast",
+   "With family",
+   "Business",
+   "Dinner"
+  ],
+  "name": "Name",
+  "phone": "Phone",
+  "email": "Email (optional)",
+  "notes": "Anything we should know?",
+  "notesPh": "Allergies, seating, a celebration",
+  "submit": "Continue in Telegram",
+  "close": "Close",
+  "doneTitle": "Almost there",
+  "doneBody": "Thank you, {name}. Your request is waiting in Telegram: just press Send. The table is confirmed once we reply. We’ve copied the text too, in case Telegram didn’t open.",
+  "doneBtn": "Done",
+  "required": "Please add a date, time, name and phone number.",
+  "again": "Open Telegram",
+  "continue": "Continue"
+ },
+ "meta": {
+  "title": "ORA — Italian & author’s cuisine, Tashkent",
+  "menuTitle": "Menu — ORA, Tashkent",
+  "desc": "Italian and author’s cuisine with an open kitchen on the second floor of Infinity Luxury Residence, Istiqbol 41, Tashkent. Breakfast from 09:00. Book by Telegram, phone or online."
+ },
+ "events": {
+  "label": "Private events",
+  "title": "Banquets for up to 180 guests.",
+  "body": "Birthdays, business dinners, family celebrations. Send us the date, the number of guests and the occasion, and we’ll come back with options.",
+  "cta": "Message us on Telegram",
+  "call": "Or call",
+  "msg": "Hello! I’d like to ask about a private event at ORA. Date: … Guests: … Occasion: …",
+  "kinds": [
+   "Birthdays",
+   "Business dinners",
+   "Family celebrations"
+  ]
+ },
+ "galleryClose": "See you on the second floor.",
+ "ui": {
+  "prev": "Previous",
+  "next": "Next",
+  "call": "Call",
+  "top": "Back to top",
+  "request": "Send a request"
+ },
+ "book": {
+  "formTag": "On this site",
+  "formNote": "Date, time and guests. We confirm in Telegram.",
+  "tg": "Write to us. We reply during opening hours.",
+  "botName": "ORA bot",
+  "bot": "Book in a few taps, any time.",
+  "soon": "Soon",
+  "yandexName": "Book online",
+  "yandex": "Pick a free slot on Yandex Eats.",
+  "gisName": "Book a table",
+  "gis": "Reserve from the ORA page on 2GIS.",
+  "ig": "Send us a direct message.",
+  "phoneTag": "Phone",
+  "phone": "Reservations",
+  "phone2": "Second line"
+ },
+ "rsv": {
+  "sending": "Sending…",
+  "submitAuto": "Send request",
+  "subAuto": "Choose a date and time and we’ll pass your request to the ORA team. We’ll contact you to confirm.",
+  "sentTitle": "Request sent",
+  "sentBody": "Thank you, {name}. Your request has reached the ORA team. It is not a confirmed booking yet: we’ll contact you at {phone} to confirm the table.",
+  "failNote": "We couldn’t send the request automatically. Please send it through Telegram or call us.",
+  "copy": "Copy message",
+  "copied": "Copied",
+  "invalidPhone": "Please check the phone number.",
+  "pastDate": "Please choose today or a later date."
+ },
+ "a11y": {
+  "menu": "Open menu",
+  "close": "Close",
+  "language": "Language",
+  "mainNav": "Main",
+  "mobileNav": "Site",
+  "footerNav": "Footer",
+  "fewer": "Fewer guests",
+  "more": "More guests",
+  "skip": "Skip to content",
+  "map": "ORA on the map",
+  "newTab": "opens in a new tab"
+ }
+}

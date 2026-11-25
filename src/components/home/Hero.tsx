@@ -1,0 +1,54 @@
+'use client';
+
+import { Fragment } from 'react';
+import { useOra } from '@/components/site/OraContext';
+
+export default function Hero() {
+  const { t, quickSubmit, guestDec, guestInc, guestLabel, goMenu, openReserve, heroMove, heroLeave, todayISO, f, on } = useOra();
+  return (
+<section data-hero-section="1" data-screen-label="Hero" onPointerMove={heroMove} onPointerLeave={heroLeave} style={{ position: "relative", height: "100svh", minHeight: "560px", overflow: "hidden", background: "#141812", color: "#F4F6F1" }}>
+    <div data-hero-layer="1" aria-hidden="true" style={{ position: "absolute", inset: "-4%", backgroundColor: "#141812", backgroundImage: "url(\"/media/posters/hero.webp\")", backgroundSize: "cover", backgroundPosition: "50% 50%" }}>
+      <video data-hero="a" data-src="media/hero.mp4" poster="/media/posters/hero.webp" preload="auto" aria-hidden="true" muted playsInline style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", display: "block" }}></video>
+      <video data-hero="b" data-src="media/hero.mp4" preload="none" aria-hidden="true" muted playsInline style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", display: "block", opacity: "0" }}></video>
+    </div>
+    <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(180deg,rgba(16,19,14,.5) 0%,rgba(16,19,14,0) 24%,rgba(16,19,14,0) 42%,rgba(16,19,14,.78) 100%)" }}></div>
+    <div data-hero-copy="1" style={{ position: "relative", height: "100%", maxWidth: "1600px", margin: "0 auto", padding: "0 clamp(20px,3.2vw,48px)", boxSizing: "border-box", paddingTop: "104px", paddingBottom: "clamp(22px,4vh,44px)", display: "flex", flexDirection: "column", justifyContent: "flex-end", gap: "clamp(24px,4vh,44px)" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "32px" }}>
+        <div style={{ flex: "1 1 0", minWidth: "min(100%,320px)", display: "flex", flexDirection: "column", gap: "clamp(14px,2.4vh,28px)" }}>
+          <p data-hero-in="0" style={{ margin: "0", fontFamily: "var(--font-display)", fontSize: "13px", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", color: "#E6EBE0" }}>{t.heroKicker}</p>
+          <h1 data-drift="1" style={{ margin: "0", fontFamily: "var(--font-display)", fontWeight: "300", fontSize: "clamp(46px,min(8vw,13vh),148px)", lineHeight: ".92", letterSpacing: "-.045em", textWrap: "balance" }}>
+            <span style={{ display: "block", overflow: "hidden", paddingBottom: ".24em", marginBottom: "-.24em" }}><span data-hero-mask="1" style={{ display: "block" }}>{t.heroTitle1}</span></span>
+            <span style={{ display: "block", overflow: "hidden", paddingBottom: ".24em", marginBottom: "-.24em" }}><span data-hero-mask="2" style={{ display: "block" }}><em style={{ fontStyle: "italic", fontWeight: "300" }}>{t.heroTitle2}</em></span></span>
+          </h1>
+          <p data-hero-in="3" style={{ margin: "0", fontFamily: "var(--font-text)", fontSize: "clamp(17px,1.3vw,19px)", lineHeight: "1.55", color: "#E6EBE0", maxWidth: "38ch", textWrap: "pretty" }}>{t.heroSub}</p>
+          <div data-hero-in="4" style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center" }}>
+            <button className="hv4" type="button" onClick={openReserve} data-magnet="1" style={{ display: "inline-flex", padding: "5px", borderRadius: "999px", cursor: "pointer", textDecoration: "none", boxSizing: "border-box", background: "rgba(255,255,255,.16)", backdropFilter: "blur(20px) saturate(180%)", WebkitBackdropFilter: "blur(20px) saturate(180%)", border: "1px solid rgba(255,255,255,.5)", boxShadow: "inset 0 1px 1px rgba(255,255,255,.85),inset 0 -1px 1px rgba(255,255,255,.14),0 10px 30px rgba(16,19,14,.3)", transition: "box-shadow .45s ease" }}><span className="ac2" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "10px", minHeight: "46px", padding: "0 24px", borderRadius: "999px", background: "linear-gradient(180deg,#FFFFFF,#E9EDE5)", color: "#191D16", fontFamily: "var(--font-display)", fontSize: "14px", fontWeight: "500", letterSpacing: ".02em", whiteSpace: "nowrap", boxShadow: "inset 0 1px 0 rgba(255,255,255,1)", transition: "transform .25s ease" }}>{t.reserveTable}</span></button>
+            <button className="hv5 ac6" type="button" onClick={goMenu} data-magnet="1" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "56px", padding: "0 24px", borderRadius: "999px", cursor: "pointer", boxSizing: "border-box", fontFamily: "var(--font-display)", fontSize: "14px", fontWeight: "500", letterSpacing: ".02em", color: "#F4F6F1", background: "rgba(255,255,255,.1)", border: "1px solid rgba(255,255,255,.4)", backdropFilter: "blur(20px) saturate(170%)", WebkitBackdropFilter: "blur(20px) saturate(170%)", boxShadow: "inset 0 1px 0 rgba(255,255,255,.3)", transition: "background-color .35s ease" }}>{t.viewMenu}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true" style={{ strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round", flexShrink: "0" }}><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></button>
+          </div>
+        </div>
+        <div className="v-hf">
+          <form data-hero-in="5" onSubmit={quickSubmit} style={{ flex: "0 0 360px", boxSizing: "border-box", background: "rgba(22,26,19,.34)", backdropFilter: "blur(30px) saturate(170%)", WebkitBackdropFilter: "blur(30px) saturate(170%)", border: "1px solid rgba(255,255,255,.2)", boxShadow: "inset 0 1px 0 rgba(255,255,255,.26),inset 0 -1px 0 rgba(255,255,255,.06),0 30px 80px rgba(0,0,0,.32)", borderRadius: "28px", padding: "22px", display: "flex", flexDirection: "column", gap: "14px" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "12px", padding: "0 4px" }}><span style={{ fontFamily: "var(--font-display)", fontWeight: "300", fontSize: "28px", letterSpacing: "-.02em" }}>{t.reserveTable}</span><span style={{ fontFamily: "var(--font-display)", fontSize: "13px", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", color: "#C38D32" }}>ORA</span></div>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
+              <label style={{ display: "flex", flexDirection: "column", gap: "6px", padding: "10px 14px", borderRadius: "16px", background: "rgba(255,255,255,.08)", border: "1px solid rgba(255,255,255,.16)" }}><span style={{ fontFamily: "var(--font-display)", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", fontSize: "12px", color: "#C9D0C1" }}>{t.form.date}</span><input type="date" min={todayISO} value={f.date} onChange={on.date} style={{ background: "none", border: "0", padding: "0", color: "#F4F6F1", fontFamily: "var(--font-display)", fontSize: "16px", colorScheme: "dark", minWidth: "0", outline: "none" }} /></label>
+              <label style={{ display: "flex", flexDirection: "column", gap: "6px", padding: "10px 14px", borderRadius: "16px", background: "rgba(255,255,255,.08)", border: "1px solid rgba(255,255,255,.16)" }}><span style={{ fontFamily: "var(--font-display)", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", fontSize: "12px", color: "#C9D0C1" }}>{t.form.time}</span><input type="time" step="900" value={f.time} onChange={on.time} style={{ background: "none", border: "0", padding: "0", color: "#F4F6F1", fontFamily: "var(--font-display)", fontSize: "16px", colorScheme: "dark", minWidth: "0", outline: "none" }} /></label>
+            </div>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px", padding: "8px 8px 8px 14px", borderRadius: "16px", background: "rgba(255,255,255,.08)", border: "1px solid rgba(255,255,255,.16)" }}>
+              <span style={{ fontFamily: "var(--font-display)", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", fontSize: "12px", color: "#C9D0C1" }}>{t.form.guests}</span>
+              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                <button className="ac7" type="button" onClick={guestDec} aria-label={t.a11y.fewer} style={{ width: "36px", height: "36px", borderRadius: "50%", border: "1px solid rgba(255,255,255,.3)", background: "rgba(255,255,255,.08)", color: "#F4F6F1", cursor: "pointer", fontSize: "18px", lineHeight: "1" }}>−</button>
+                <span style={{ minWidth: "34px", textAlign: "center", fontFamily: "var(--font-display)", fontSize: "18px", fontVariantNumeric: "tabular-nums" }}>{guestLabel}</span>
+                <button className="ac7" type="button" onClick={guestInc} aria-label={t.a11y.more} style={{ width: "36px", height: "36px", borderRadius: "50%", border: "1px solid rgba(255,255,255,.3)", background: "rgba(255,255,255,.08)", color: "#F4F6F1", cursor: "pointer", fontSize: "18px", lineHeight: "1" }}>+</button>
+              </div>
+            </div>
+            <button className="hv4" type="submit" data-magnet="1" style={{ display: "inline-flex", padding: "5px", borderRadius: "999px", cursor: "pointer", textDecoration: "none", boxSizing: "border-box", background: "rgba(255,255,255,.16)", backdropFilter: "blur(20px) saturate(180%)", WebkitBackdropFilter: "blur(20px) saturate(180%)", border: "1px solid rgba(255,255,255,.5)", boxShadow: "inset 0 1px 1px rgba(255,255,255,.85),inset 0 -1px 1px rgba(255,255,255,.14),0 10px 30px rgba(16,19,14,.3)", transition: "box-shadow .45s ease", width: "100%" }}><span className="ac2" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "10px", minHeight: "46px", padding: "0 24px", borderRadius: "999px", background: "linear-gradient(180deg,#FFFFFF,#E9EDE5)", color: "#191D16", fontFamily: "var(--font-display)", fontSize: "14px", fontWeight: "500", letterSpacing: ".02em", whiteSpace: "nowrap", boxShadow: "inset 0 1px 0 rgba(255,255,255,1)", transition: "transform .25s ease", flex: "1" }}>{t.form.continue}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true" style={{ strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round", flexShrink: "0" }}><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></span></button>
+          </form>
+        </div>
+      </div>
+      <ul data-hero-in="6" style={{ listStyle: "none", margin: "0", padding: "14px 0 0", borderTop: "1px solid rgba(255,255,255,.22)", display: "flex", flexWrap: "wrap", gap: "8px 28px" }}>
+        {(t.strip).map((s, _i) => (<Fragment key={_i}><li style={{ fontFamily: "var(--font-display)", fontSize: "13px", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", color: "#E6EBE0" }}>{s}</li></Fragment>))}
+      </ul>
+    </div>
+  </section>
+  );
+}

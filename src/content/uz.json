@@ -1,0 +1,840 @@
+{
+ "nav": {
+  "story": "Biz haqimizda",
+  "kitchen": "Oshxona",
+  "menu": "Menyu",
+  "evening": "Kechqurun",
+  "visit": "Manzil",
+  "reserve": "Band qilish",
+  "events": "Banketlar"
+ },
+ "heroKicker": "Italyan va mualliflik oshxonasi · Toshkent",
+ "heroTitle1": "Italyan oshxonasi —",
+ "heroTitle2": "hammasi koʻz oldingizda.",
+ "heroSub": "Infinity Luxury Residence, ikkinchi qavat. Ochiq oshxona, panorama derazalar va soat toʻqqizdan nonushta.",
+ "reserveTable": "Stol band qilish",
+ "viewMenu": "Menyuni koʻrish",
+ "strip": [
+  "Har kuni 09:00 dan",
+  "Nonushta 12:50 gacha",
+  "Istiqbol, 41"
+ ],
+ "s01": {
+  "label": "Restoran",
+  "title": "Ilk qahvadan soʻnggi mehmongacha.",
+  "body": "Infinity Luxury Residence ikkinchi qavatida ORA italyan va mualliflik taomlarini zalga ochiq oshxonada tayyorlaydi; zalni panorama derazalar va vitrajlar yoritadi. Ishchi nonushta, uzoq tushlik yoki oilaviy kechki ovqatga keling.",
+  "facts": [
+   {
+    "v": "180",
+    "k": "oʻrin"
+   },
+   {
+    "v": "09:00",
+    "k": "har kuni ochilamiz"
+   },
+   {
+    "v": "2025",
+    "k": "ochilgan yil"
+   }
+  ]
+ },
+ "gallery": "Galereya",
+ "s02": {
+  "label": "Zal",
+  "title": "Toza chiziqlar, panorama derazalar, vitrajlar.",
+  "body": ""
+ },
+ "s04": {
+  "label": "Ochiq oshxona",
+  "title": "Oshxona bilan stol orasida devor yoʻq.",
+  "body": "Brend-shef Islom Kurbonov chef’s table setlarini stolga oʻzi olib chiqadi: uch xil ikrali losos, grechka popkorni bilan dimlangan qovurgʻa.",
+  "cap": "Chef’s table · ikrali losos"
+ },
+ "s06": {
+  "label": "Nonushta",
+  "title": "Nonushta — 12:50 gacha.",
+  "body": "Oʻn olti xil taom: tariq boʻtqasidan qora tryufel va strachatellali omletgacha."
+ },
+ "s07": {
+  "label": "Menyudan",
+  "title": "Raviolidan boshlang.",
+  "cap1": "Losos va krevetkali ravioli",
+  "cap2": "Sabzi kremi bilan dimlangan qovurgʻa",
+  "note": "150 000 soʻm",
+  "note2": "275 000 soʻm"
+ },
+ "s08": {
+  "label": "Bar",
+  "title": "Ertalab detoks, kechqurun vino.",
+  "body": "Kunduzi — fresh sharbatlar va limonadlar, kechroq — mualliflik kokteyllari. Hammasining markazida esa vino kartasi."
+ },
+ "s10": {
+  "label": "Kun kechga ulanadi",
+  "day": "Kunduz",
+  "evening": "Kechqurun",
+  "body": ""
+ },
+ "s11": {
+  "label": "Kechqurun",
+  "title": "Ikki kishilik yoki butun oila bilan kechki ovqat.",
+  "body": "Romantik kechki ovqat, oilaviy davra yoki ish uchrashuvi. 23:00 gacha, juma va shanba kunlari esa 23:45 gacha ishlaymiz."
+ },
+ "s12": {
+  "label": "Band qilish",
+  "title": "Stol band qilish",
+  "body": "Biz bilan bogʻlanishning yetti yoʻli — qulayini tanlang.",
+  "trust": [
+   {
+    "k": "Tripadvisor",
+    "v": "5.0 · 19 sharh"
+   },
+   {
+    "k": "2GIS",
+    "v": "4.9 · 24 baho"
+   },
+   {
+    "k": "Ultima Guide 2026",
+    "v": "Eng yaxshi interyer"
+   }
+  ]
+ },
+ "visit": {
+  "label": "Bizni qanday topish mumkin",
+  "cells": [
+   {
+    "k": "Manzil",
+    "lines": [
+     {
+      "v": "Istiqbol koʻchasi, 41"
+     },
+     {
+      "v": "Infinity Luxury Residence, 2-qavat"
+     },
+     {
+      "v": "Yashnobod tumani, Toshkent"
+     }
+    ]
+   },
+   {
+    "k": "Ish vaqti",
+    "lines": [
+     {
+      "v": "Ya–Pa 09:00–23:00"
+     },
+     {
+      "v": "Ju–Sha 09:00–23:45"
+     },
+     {
+      "v": "Nonushta 09:00–12:50"
+     }
+    ]
+   },
+   {
+    "k": "Band qilish",
+    "lines": [
+     {
+      "v": "Telegram @Oratashkent",
+      "href": "https://t.me/Oratashkent"
+     },
+     {
+      "v": "Onlayn bron · Yandex",
+      "href": "https://eats.yandex.com/uz/offline_place/d8c768e1b2df4127a69f1031920b160f?slug=ora"
+     },
+     {
+      "v": "+998 78 122 99 22",
+      "href": "tel:+998781229922"
+     },
+     {
+      "v": "+998 95 418 12 12",
+      "href": "tel:+998954181212"
+     }
+    ]
+   }
+  ],
+  "directions": "Yoʻnalishni koʻrish",
+  "goodLabel": "Bilib qoʻying",
+  "good": [
+   "Nonushta 09:00–12:50",
+   "Bolalar burchagi va stulchalar",
+   "Itlar bilan mumkin",
+   "Pandus va keng lift",
+   "Avtoturargoh bor",
+   "Yozgi ayvon",
+   "Inglizcha menyu",
+   "Wi-Fi",
+   "Karta, naqd, QR",
+   "Yetkazib berish va olib ketish"
+  ],
+  "socialLabel": "Ijtimoiy tarmoqlarda",
+  "social": [
+   {
+    "k": "Instagram",
+    "v": "@ora.tashkent",
+    "href": "https://www.instagram.com/ora.tashkent/"
+   },
+   {
+    "k": "Telegram",
+    "v": "@Oratashkent",
+    "href": "https://t.me/Oratashkent"
+   }
+  ]
+ },
+ "footer": {
+  "rights": "© ORA, Toshkent",
+  "imagery": "Saytdagi videolar — illyustratsiya, ORA’da suratga olinmagan."
+ },
+ "menu": {
+  "title": "Menyu",
+  "back": "Bosh sahifa",
+  "notice": "Narxlar soʻmda, Yandex Xaritalardagi ORA menyusi boʻyicha (2026-yil 6-oktabrda yangilangan). Bu yetkazib berish menyusi — restoranda taomlar va narxlar farq qilishi mumkin.",
+  "cats": [
+   {
+    "f": "breakfast",
+    "name": "Nonushta",
+    "items": [
+     {
+      "n": "English breakfast",
+      "p": "130 000",
+      "d": "350 g",
+      "i": "01-english-breakfast.jpg"
+     },
+     {
+      "n": "Benedict Atlantic",
+      "p": "135 000",
+      "d": "230 g",
+      "i": "02-eggs-benedict-atlantic.jpg"
+     },
+     {
+      "n": "Crêpe with condensed-milk cream",
+      "p": "80 000",
+      "d": "160 g",
+      "i": "03-cr-pe-with-condensed-milk-cream.jpg"
+     },
+     {
+      "n": "Crêpe with salmon",
+      "p": "130 000",
+      "d": "170 g",
+      "i": "04-cr-pe-with-salmon.jpg"
+     },
+     {
+      "n": "Granola",
+      "p": "115 000",
+      "d": "115 g",
+      "i": "05-granola.jpg"
+     },
+     {
+      "n": "Potato pancake Atlantic",
+      "p": "125 000",
+      "d": "260 g",
+      "i": "06-potato-pancake-atlantic.jpg"
+     },
+     {
+      "n": "Healthy breakfast",
+      "p": "130 000",
+      "d": "290 g",
+      "i": "07-healthy-breakfast.jpg"
+     },
+     {
+      "n": "Chef’s breakfast",
+      "p": "140 000",
+      "d": "300 g",
+      "i": "08-chef-s-breakfast.jpg"
+     },
+     {
+      "n": "Millet porridge",
+      "p": "85 000",
+      "d": "375 g",
+      "i": "09-millet-porridge.jpg"
+     },
+     {
+      "n": "Rice porridge with berries",
+      "p": "85 000",
+      "d": "300 g",
+      "i": "10-rice-porridge-with-berries.jpg"
+     },
+     {
+      "n": "Classic omelette",
+      "p": "50 000",
+      "d": "170 g",
+      "i": "11-classic-omelette.jpg"
+     },
+     {
+      "n": "Omelette with vegetables",
+      "p": "85 000",
+      "d": "285 g",
+      "i": "12-omelette-with-vegetables.jpg"
+     },
+     {
+      "n": "Cheese omelette with Parmesan espuma",
+      "p": "90 000",
+      "d": "230 g",
+      "i": "13-cheese-omelette-with-parmesan-espuma.jpg"
+     },
+     {
+      "n": "Omelette with black truffle and stracciatella",
+      "p": "105 000",
+      "d": "225 g",
+      "i": "14-omelette-with-black-truffle-and-stracciatella.jpg"
+     },
+     {
+      "n": "Syrniki with mascarpone cream",
+      "p": "95 000",
+      "d": "185 g",
+      "i": "15-syrniki-with-mascarpone-cream.jpg"
+     },
+     {
+      "n": "French toast with salted caramel",
+      "p": "125 000",
+      "d": "200 g",
+      "i": "16-french-toast-with-salted-caramel.jpg"
+     }
+    ]
+   },
+   {
+    "f": "plating",
+    "name": "ORA × Ultima",
+    "items": [
+     {
+      "n": "Scallop with duxelles and black truffle",
+      "p": "280 000",
+      "d": "220 g",
+      "i": "17-scallop-with-duxelles-and-black-truffle.jpg"
+     },
+     {
+      "n": "Green bowl",
+      "p": "105 000",
+      "d": "220 g",
+      "i": "18-green-bowl.jpg"
+     },
+     {
+      "n": "Salmon and prawn ravioli",
+      "p": "150 000",
+      "d": "180 g",
+      "i": "19-salmon-and-prawn-ravioli.jpg"
+     },
+     {
+      "n": "Braised rib with carrot cream",
+      "p": "275 000",
+      "d": "230 g",
+      "i": "80-braised-rib-with-carrot-cream.jpg"
+     }
+    ]
+   },
+   {
+    "f": "kitchen",
+    "name": "Sovuq gazaklar",
+    "items": [
+     {
+      "n": "Cheese selection",
+      "p": "160 000",
+      "d": "210 g",
+      "i": "21-cheese-selection.jpg"
+     },
+     {
+      "n": "Edamame",
+      "p": "75 000",
+      "d": "160 g",
+      "i": "22-edamame.jpg"
+     },
+     {
+      "n": "Creamy eel with lime and coconut",
+      "p": "135 000",
+      "d": "160 g",
+      "i": "23-creamy-eel-with-lime-and-coconut.jpg"
+     }
+    ]
+   },
+   {
+    "f": "service",
+    "name": "Issiq gazaklar",
+    "items": [
+     {
+      "n": "Grilled prawns, ginger sauce",
+      "p": "155 000",
+      "d": "160 g",
+      "i": "81-grilled-prawns-ginger-sauce.jpg"
+     },
+     {
+      "n": "Prawn tempura, spicy aioli",
+      "p": "145 000",
+      "d": "180 g",
+      "i": "82-prawn-tempura-spicy-aioli.jpg"
+     },
+     {
+      "n": "Chicken strips",
+      "p": "80 000",
+      "d": "240 g",
+      "i": "83-chicken-strips.jpg"
+     },
+     {
+      "n": "Crispy aubergine",
+      "p": "100 000",
+      "d": "300 g",
+      "i": "84-crispy-aubergine.jpg"
+     }
+    ]
+   },
+   {
+    "f": "light",
+    "name": "Salatlar va shoʻrva",
+    "items": [
+     {
+      "n": "Chicken bowl",
+      "p": "110 000",
+      "d": "350 g",
+      "i": "28-chicken-bowl.jpg"
+     },
+     {
+      "n": "Green salad with sesame dressing",
+      "p": "130 000",
+      "d": "300 g",
+      "i": "29-green-salad-with-sesame-dressing.jpg"
+     },
+     {
+      "n": "ORA vegetable salad",
+      "p": "120 000",
+      "d": "230 g",
+      "i": "30-ora-vegetable-salad.jpg"
+     },
+     {
+      "n": "Chicken and quinoa salad",
+      "p": "115 000",
+      "d": "250 g",
+      "i": "31-chicken-and-quinoa-salad.jpg"
+     },
+     {
+      "n": "Pumpkin cream soup",
+      "p": "75 000",
+      "d": "300 g",
+      "i": "32-pumpkin-cream-soup.jpg"
+     }
+    ]
+   },
+   {
+    "f": "pasta",
+    "name": "Pasta va rizotto",
+    "items": [
+     {
+      "n": "Prawn pasta",
+      "p": "135 000",
+      "d": "320 g",
+      "i": "33-prawn-pasta.jpg"
+     },
+     {
+      "n": "Chicken pasta, ORA Alfredo",
+      "p": "120 000",
+      "d": "300 g",
+      "i": "34-chicken-pasta-ora-alfredo.jpg"
+     },
+     {
+      "n": "Porcini ravioli",
+      "p": "150 000",
+      "d": "210 g",
+      "i": "35-porcini-ravioli.jpg"
+     },
+     {
+      "n": "Veal ravioli",
+      "p": "140 000",
+      "d": "300 g",
+      "i": "36-veal-ravioli.jpg"
+     },
+     {
+      "n": "Truffle risotto",
+      "p": "145 000",
+      "d": "250 g",
+      "i": "37-truffle-risotto.jpg"
+     }
+    ]
+   },
+   {
+    "f": "fish",
+    "name": "Asosiy taomlar",
+    "items": [
+     {
+      "n": "ORA beefsteak",
+      "p": "145 000",
+      "d": "340 g",
+      "i": "38-ora-beefsteak.jpg"
+     },
+     {
+      "n": "ORA burger",
+      "p": "145 000",
+      "d": "340 g",
+      "i": "39-ora-burger.jpg"
+     },
+     {
+      "n": "Chicken cutlets with Parmesan mousse",
+      "p": "100 000",
+      "d": "240 g",
+      "i": "40-chicken-cutlets-with-parmesan-mousse.jpg"
+     },
+     {
+      "n": "Veal medallions",
+      "p": "250 000",
+      "d": "300 g",
+      "i": "41-veal-medallions.jpg"
+     },
+     {
+      "n": "Salmon with beurre blanc",
+      "p": "240 000",
+      "d": "240 g",
+      "i": "42-salmon-with-beurre-blanc.jpg"
+     },
+     {
+      "n": "Filet mignon",
+      "p": "250 000",
+      "d": "260 g",
+      "i": "43-filet-mignon.jpg"
+     },
+     {
+      "n": "Chicken with jus",
+      "p": "115 000",
+      "d": "320 g",
+      "i": "44-chicken-with-jus.jpg"
+     }
+    ]
+   },
+   {
+    "f": "dolly",
+    "name": "Garnirlar",
+    "items": [
+     {
+      "n": "Sweet potato fries with Parmesan",
+      "p": "75 000",
+      "d": "150 g",
+      "i": "45-sweet-potato-fries-with-parmesan.jpg"
+     },
+     {
+      "n": "Roasted vegetables",
+      "p": "80 000",
+      "d": "220 g",
+      "i": "46-roasted-vegetables.jpg"
+     },
+     {
+      "n": "Fries with espuma and Parmesan",
+      "p": "70 000",
+      "d": "150 g",
+      "i": "47-fries-with-espuma-and-parmesan.jpg"
+     },
+     {
+      "n": "Mashed potatoes",
+      "p": "50 000",
+      "d": "150 g",
+      "i": "48-mashed-potatoes.jpg"
+     },
+     {
+      "n": "Truffle mashed potatoes",
+      "p": "60 000",
+      "d": "150 g",
+      "i": "49-truffle-mashed-potatoes.jpg"
+     },
+     {
+      "n": "Asparagus with espuma and Parmesan",
+      "p": "130 000",
+      "d": "150 g",
+      "i": "50-asparagus-with-espuma-and-parmesan.jpg"
+     }
+    ]
+   },
+   {
+    "f": "dessert",
+    "name": "Desertlar",
+    "items": [
+     {
+      "n": "Panna cotta",
+      "p": "90 000",
+      "d": "140 g",
+      "i": "51-panna-cotta.jpg"
+     },
+     {
+      "n": "Cheesecake",
+      "p": "75 000",
+      "d": "140 g",
+      "i": "52-cheesecake.jpg"
+     }
+    ]
+   },
+   {
+    "f": "interior",
+    "name": "Issiq ichimliklar",
+    "items": [
+     {
+      "n": "Americano",
+      "p": "35 000",
+      "d": "150 ml",
+      "i": "85-americano.jpg"
+     },
+     {
+      "n": "Cocoa",
+      "p": "65 000",
+      "d": "250 ml",
+      "i": "86-cocoa.jpg"
+     },
+     {
+      "n": "Cappuccino",
+      "p": "45 000",
+      "d": "250 ml",
+      "i": "87-cappuccino.jpg"
+     },
+     {
+      "n": "Latte",
+      "p": "45 000",
+      "d": "250 ml",
+      "i": "56-latte.jpg"
+     },
+     {
+      "n": "Flat white",
+      "p": "50 000",
+      "d": "250 ml",
+      "i": "57-flat-white.jpg"
+     }
+    ]
+   },
+   {
+    "f": "glass",
+    "name": "Sovuq ichimliklar",
+    "items": [
+     {
+      "n": "Fresh orange juice",
+      "p": "80 000",
+      "d": "250 ml",
+      "i": "58-fresh-orange-juice.jpg"
+     },
+     {
+      "n": "Fresh grapefruit juice",
+      "p": "100 000",
+      "d": "250 ml",
+      "i": "59-fresh-grapefruit-juice.jpg"
+     },
+     {
+      "n": "Fresh carrot juice",
+      "p": "45 000",
+      "d": "250 ml",
+      "i": "60-fresh-carrot-juice.jpg"
+     },
+     {
+      "n": "Fresh apple juice",
+      "p": "50 000",
+      "d": "250 ml",
+      "i": "61-fresh-apple-juice.jpg"
+     },
+     {
+      "n": "Detox blueberry–banana–mint",
+      "p": "80 000",
+      "d": "250 ml",
+      "i": "62-detox-blueberry-banana-mint.jpg"
+     },
+     {
+      "n": "Detox calpis–sorrel",
+      "p": "65 000",
+      "d": "250 ml",
+      "i": "63-detox-calpis-sorrel.jpg"
+     },
+     {
+      "n": "Jasmine lemonade",
+      "p": "50 000",
+      "d": "350 ml",
+      "i": "64-jasmine-lemonade.jpg"
+     },
+     {
+      "n": "Calamansi–vanilla lemonade",
+      "p": "65 000",
+      "d": "350 ml",
+      "i": "65-calamansi-vanilla-lemonade.jpg"
+     },
+     {
+      "n": "Lime–basil lemonade",
+      "p": "55 000",
+      "d": "350 ml",
+      "i": "66-lime-basil-lemonade.jpg"
+     },
+     {
+      "n": "Chortoq still water",
+      "p": "30 000",
+      "d": "500 ml",
+      "i": "67-chortoq-still-water.jpg"
+     },
+     {
+      "n": "Chortoq sparkling water",
+      "p": "30 000",
+      "d": "500 ml",
+      "i": "68-chortoq-sparkling-water.jpg"
+     },
+     {
+      "n": "Coca-Cola",
+      "p": "38 000",
+      "d": "250 ml",
+      "i": "69-coca-cola.jpg"
+     }
+    ]
+   },
+   {
+    "f": "hero",
+    "name": "Qoʻshimchalar",
+    "items": [
+     {
+      "n": "Half avocado",
+      "p": "30 000",
+      "d": "100 g",
+      "i": "70-half-avocado.jpg"
+     },
+     {
+      "n": "Blueberries",
+      "p": "40 000",
+      "d": "50 g",
+      "i": "71-blueberries.jpg"
+     },
+     {
+      "n": "Tiger prawns (3 pcs)",
+      "p": "50 000",
+      "d": "60 g",
+      "i": "72-tiger-prawns-3-pcs.jpg"
+     },
+     {
+      "n": "Condensed-milk cream",
+      "p": "30 000",
+      "d": "30 g",
+      "i": "73-condensed-milk-cream.jpg"
+     },
+     {
+      "n": "Raspberries",
+      "p": "50 000",
+      "d": "50 g",
+      "i": "74-raspberries.jpg"
+     },
+     {
+      "n": "Mortadella",
+      "p": "20 000",
+      "d": "30 g",
+      "i": "75-mortadella.jpg"
+     },
+     {
+      "n": "Cold-smoked salmon",
+      "p": "40 000",
+      "d": "30 g",
+      "i": "76-cold-smoked-salmon.jpg"
+     },
+     {
+      "n": "Feta",
+      "p": "18 000",
+      "d": "30 g",
+      "i": "77-feta.jpg"
+     },
+     {
+      "n": "Parmesan espuma",
+      "p": "25 000",
+      "d": "40 g",
+      "i": "78-parmesan-espuma.jpg"
+     },
+     {
+      "n": "Soft espuma",
+      "p": "25 000",
+      "d": "40 g",
+      "i": "79-soft-espuma.jpg"
+     }
+    ]
+   }
+  ],
+  "searchPh": "Menyudan qidirish",
+  "noResults": "Bunday taom topilmadi — boshqa soʻz bilan qidiring.",
+  "askPrice": "Narxini soʻrang",
+  "pdf": "Menyu PDF · Ultima",
+  "bookOnline": "Onlayn bron · Yandex",
+  "tag": "Tryufelli rizottodan panna kottagacha."
+ },
+ "form": {
+  "callAlt": "Qoʻngʻiroq qilish qulayroqmi?",
+  "title": "Stol band qilish",
+  "sub": "Sana va vaqtni tanlang — Telegram tayyor soʻrov bilan ochiladi, biz esa javob berib tasdiqlaymiz.",
+  "date": "Sana",
+  "time": "Vaqt",
+  "guests": "Mehmonlar",
+  "occasion": "Sabab",
+  "occasions": [
+   "Nonushta",
+   "Oila bilan",
+   "Ish uchrashuvi",
+   "Kechki ovqat"
+  ],
+  "name": "Ism",
+  "phone": "Telefon",
+  "email": "Email (ixtiyoriy)",
+  "notes": "Izoh",
+  "notesPh": "Allergiya, stol boʻyicha istak, bayram",
+  "submit": "Telegramda davom etish",
+  "close": "Yopish",
+  "doneTitle": "Deyarli tayyor",
+  "doneBody": "Rahmat, {name}. Soʻrovingiz Telegramda turibdi — «Yuborish»ni bosing, xolos. Javob berganimizdan soʻng stol tasdiqlanadi. Telegram ochilmagan boʻlsa, matnni nusxalab qoʻydik.",
+  "doneBtn": "Tayyor",
+  "required": "Sana, vaqt, ism va telefon raqamini kiriting.",
+  "again": "Telegramni ochish",
+  "continue": "Davom etish"
+ },
+ "meta": {
+  "title": "ORA — italyan va mualliflik oshxonasi, Toshkent",
+  "menuTitle": "Menyu — ORA, Toshkent",
+  "desc": "Italyan va mualliflik oshxonasi, ochiq oshxona, Infinity Luxury Residence ikkinchi qavati, Istiqbol 41, Toshkent. Nonushta 09:00 dan. Telegram, telefon yoki onlayn band qiling."
+ },
+ "events": {
+  "label": "Shaxsiy tadbirlar",
+  "title": "180 nafargacha mehmon uchun banketlar.",
+  "body": "Tugʻilgan kunlar, ishchi kechki ovqatlar, oilaviy bayramlar. Sana, mehmonlar soni va sababni yozing — variantlarni taklif qilamiz.",
+  "cta": "Telegramda yozish",
+  "call": "Yoki qoʻngʻiroq qiling",
+  "msg": "Assalomu alaykum! ORA’da tadbir oʻtkazish haqida bilmoqchiman. Sana: … Mehmonlar: … Sabab: …",
+  "kinds": [
+   "Tugʻilgan kunlar",
+   "Ishchi kechki ovqatlar",
+   "Oilaviy bayramlar"
+  ]
+ },
+ "galleryClose": "Ikkinchi qavatda kutamiz.",
+ "ui": {
+  "prev": "Oldingi",
+  "next": "Keyingi",
+  "call": "Qoʻngʻiroq qilish",
+  "top": "Yuqoriga",
+  "request": "Soʻrov yuborish"
+ },
+ "book": {
+  "formTag": "Saytda",
+  "formNote": "Sana, vaqt, mehmonlar — Telegramda tasdiqlaymiz.",
+  "tg": "Bizga yozing — ish vaqtida javob beramiz.",
+  "botName": "ORA boti",
+  "bot": "Bir necha bosishda, istalgan vaqtda.",
+  "soon": "Tez orada",
+  "yandexName": "Onlayn bron",
+  "yandex": "Yandex Eda’da boʻsh vaqtni tanlang.",
+  "gisName": "Stol band qilish",
+  "gis": "2GIS’dagi ORA sahifasidan.",
+  "ig": "Direktga yozing.",
+  "phoneTag": "Telefon",
+  "phone": "Band qilish",
+  "phone2": "Ikkinchi liniya"
+ },
+ "rsv": {
+  "sending": "Yuborilmoqda…",
+  "submitAuto": "Soʻrov yuborish",
+  "subAuto": "Sana va vaqtni tanlang — soʻrovingizni ORA jamoasiga yetkazamiz va tasdiqlash uchun siz bilan bogʻlanamiz.",
+  "sentTitle": "Soʻrov yuborildi",
+  "sentBody": "Rahmat, {name}. Soʻrovingiz ORA jamoasiga yetib bordi. Bu hali tasdiqlangan bron emas: stolni tasdiqlash uchun {phone} raqami orqali siz bilan bogʻlanamiz.",
+  "failNote": "Soʻrovni avtomatik yuborib boʻlmadi. Iltimos, uni Telegram orqali yuboring yoki bizga qoʻngʻiroq qiling.",
+  "copy": "Matnni nusxalash",
+  "copied": "Nusxalandi",
+  "invalidPhone": "Telefon raqamini tekshiring.",
+  "pastDate": "Bugungi yoki keyingi sanani tanlang."
+ },
+ "a11y": {
+  "menu": "Menyuni ochish",
+  "close": "Yopish",
+  "language": "Til",
+  "mainNav": "Asosiy menyu",
+  "mobileNav": "Sayt boʻlimlari",
+  "footerNav": "Pastki navigatsiya",
+  "fewer": "Mehmonlar kamroq",
+  "more": "Mehmonlar koʻproq",
+  "skip": "Asosiy qismga oʻtish",
+  "map": "ORA xaritada",
+  "newTab": "yangi oynada ochiladi"
+ }
+}

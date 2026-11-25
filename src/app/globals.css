@@ -1,0 +1,172 @@
+/*
+ * ORA — global styles.
+ * Tokens and base rules are carried over from the approved design export
+ * (its design-system layer with the ORA overrides already resolved).
+ * Section styling lives inline in the components, exactly as designed.
+ */
+@import './fonts.css';
+@import './hover.css';
+
+:root {
+  --font-display: "Jost", system-ui, sans-serif;
+  --font-text: "Piazzolla", Georgia, serif;
+  --font-heading: "Jost", system-ui, sans-serif;
+  --font-body: "Jost", system-ui, sans-serif;
+  --font-heading-weight: 600;
+  --color-bg: #E3E8DE;
+  --color-surface: #EEF1EA;
+  --color-text: #191D16;
+  --color-divider: rgba(25, 29, 22, .16);
+  --color-accent: #2F3828;
+  --color-accent-100: #E9EDE5;
+  --color-accent-200: #D5DBCF;
+  --color-accent-300: #B9C1AF;
+  --color-accent-500: #2F3828;
+  --color-accent-600: #252C1F;
+  --color-accent-700: #1E241A;
+  --color-accent-900: #151912;
+  --deck-h: 64svh;
+  --footer-pad: 0px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  background: #E3E8DE;
+  color: #191D16;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+body { font-size: 15px; line-height: 1.55; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 6.8px;
+}
+p { margin: 0 0 10.2px; }
+a { color: #7A5714; text-underline-offset: 3px; }
+a:hover { color: #191D16; }
+img { display: block; max-width: 100%; }
+figure { margin: 0; }
+button, input, select, textarea { font-family: inherit; }
+::selection { background: #C38D32; color: #191D16; }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid #C38D32; outline-offset: 3px; }
+
+/* — dialog, form controls and buttons used by the reservation modal — */
+.dialog-backdrop {
+  position: fixed; inset: 0; display: grid; place-items: center; padding: 13.6px;
+  background: color-mix(in srgb, #2b2b2d 50%, transparent);
+}
+.field > label {
+  display: block; font-size: 12px; margin-bottom: 5px;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.input {
+  width: 100%; min-height: 36px; padding: 6px 10px; font: inherit;
+  font-size: 14px; color: var(--color-text); caret-color: var(--color-accent);
+  background: var(--color-surface);
+  border: 1px solid var(--color-divider); border-radius: 0;
+}
+.input:hover { border-color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.input:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+textarea.input { min-height: 90px; resize: vertical; }
+.input[aria-invalid='true'] { border-color: #8A3B2A !important; }
+.seg {
+  display: inline-flex; overflow: hidden;
+  border: 1px solid var(--color-divider); border-radius: 0;
+}
+.seg-opt {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; font-size: 13px; cursor: pointer; position: relative;
+}
+.seg-opt input { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+.seg-opt + .seg-opt { border-left: 1px solid var(--color-divider); }
+.seg-opt:has(input:checked) { background: var(--color-accent); color: var(--color-bg); }
+.seg-opt:not(:has(input:checked)):hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.seg-opt:has(input:focus-visible) { outline: 2px solid var(--color-accent); outline-offset: -2px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 14px; line-height: 1.2; color: var(--color-text);
+  background: transparent; border: 1px solid var(--color-divider);
+  padding: 6.8px 12.24px; border-radius: 0;
+}
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn-primary { background: var(--color-accent); color: var(--color-bg); border-color: var(--color-accent); }
+.btn-primary:hover { background: var(--color-accent-600); color: var(--color-bg); }
+.btn-primary:active { background: var(--color-accent-700); }
+.btn-secondary { border-color: var(--color-divider); }
+.btn-secondary:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.btn-secondary:active { background: color-mix(in srgb, var(--color-text) 14%, transparent); }
+button[disabled] { cursor: progress; }
+
+/* — responsive branches: the design swaps desktop/mobile compositions at 900px
+     (and shows the hero booking card from 1100px). Both are server-rendered;
+     CSS picks one so every device gets the right layout on first paint. — */
+.v-dsk { display: contents; }
+.v-mob { display: none; }
+.v-hf { display: none; }
+@media (min-width: 1100px) { .v-hf { display: contents; } }
+@media (max-width: 899.98px) {
+  .v-dsk { display: none; }
+  .v-mob { display: contents; }
+  :root { --deck-h: 40svh; }
+  .footer-home { --footer-pad: 88px; }
+}
+
+/* Horizontal strips hide their scrollbars (scrollbar-width covers Firefox). */
+#ora-strip::-webkit-scrollbar, [data-cat-nav]::-webkit-scrollbar, .h-scroll::-webkit-scrollbar { display: none; }
+
+/* Entrance: hide hero copy before hydration so it animates in without a flash.
+   The class is added by an inline script only when motion is allowed. */
+.js-motion [data-hero-in] { opacity: 0; transform: translateY(16px); }
+.js-motion [data-hero-mask] { transform: translateY(calc(100% + .32em)); }
+
+.skip-link {
+  position: fixed; left: 12px; top: -100px; z-index: 400;
+  padding: 12px 18px; border-radius: 999px; background: #191D16; color: #F4F6F1;
+  font-family: var(--font-display); font-size: 14px; text-decoration: none;
+}
+.skip-link:focus { top: 12px; color: #F4F6F1; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
+
+/* — phone refinements (below the design's 900px breakpoint) — */
+@media (max-width: 899.98px) {
+  /* Full-screen sections keep their bottom copy clear of the sticky booking bar. */
+  .cta-safe { padding-bottom: calc(92px + env(safe-area-inset-bottom)) !important; }
+
+  /* Open kitchen: the chef's-table card becomes a compact caption row so the
+     headline and copy stay on screen. */
+  .ex-text { flex-basis: 100% !important; gap: 14px !important; }
+  .ex-text p { font-size: 16px !important; line-height: 1.55 !important; }
+  .ex-card {
+    width: 100% !important; display: flex !important; align-items: center; gap: 14px;
+    padding: 6px !important; border-radius: 20px !important;
+  }
+  .ex-card img { width: 72px !important; height: 72px !important; aspect-ratio: 1 !important; flex: none; border-radius: 14px !important; }
+  .ex-card figcaption { padding: 0 8px 0 0 !important; }
+
+  /* Private events: the CTA and call button share one line. */
+  .ev-seats { display: none !important; }
+  .ev-pill { padding: 6px !important; flex-wrap: nowrap !important; }
+
+  /* Signature: no offset column once the two photos stack. */
+  .sig-col2 { padding-top: 0 !important; }
+
+  /* Reservation channels: a compact two-column grid instead of eight tall cards. */
+  .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 10px !important; }
+  .book-card { min-height: 116px !important; padding: 16px !important; gap: 14px !important; border-radius: 20px !important; }
+  .book-wide { grid-column: 1 / -1; }
+  .book-name { font-size: 21px !important; overflow-wrap: anywhere; }
+  .book-note { font-size: 13px !important; line-height: 1.4 !important; }
+}
