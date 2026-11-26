@@ -243,10 +243,14 @@ export class OraMotion {
       el.style.transition = 'none';
       if (mask) el.style.transform = 'translateY(calc(100% + .32em))';
       else { el.style.opacity = '0'; el.style.transform = 'translateY(16px)'; }
-      requestAnimationFrame(() => requestAnimationFrame(() => {
+      // Commit the hidden state with a forced reflow, then start the transition on a
+      // timer: unlike chained requestAnimationFrame calls this cannot stall when a
+      // phone throttles frames (iOS Low Power Mode, tab restore, battery savers).
+      void el.offsetHeight;
+      setTimeout(() => {
         el.style.transition = `transform 1.6s ${EASE} ${200 + i * 140}ms, opacity 1.6s ${EASE} ${200 + i * 140}ms`;
         el.style.transform = 'none'; el.style.opacity = '1';
-      }));
+      }, 30);
     });
     document.querySelectorAll<Mov>('[data-reveal],[data-mask],[data-reveal-img]').forEach((el) => {
       if (el.dataset.rv) return;
@@ -439,7 +443,7 @@ export class OraMotion {
         if (!vis(r)) continue;
         const amp = parseFloat(el.dataset.tilt || '') || 3;
         let tx = 0, ty = 0;
-        if (live && mx >= r.left && mx <= r.right && my >= r.top && my <= r.bottom) {
+        if (live && this.fine && mx >= r.left && mx <= r.right && my >= r.top && my <= r.bottom) {
           const nx = (mx - r.left) / r.width - 0.5, ny = (my - r.top) / r.height - 0.5;
           tx = -ny * amp * 2; ty = nx * amp * 2;
         }

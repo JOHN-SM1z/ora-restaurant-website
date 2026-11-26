@@ -19,7 +19,7 @@ export default function ReserveDialog() {
   };
   return (
 <>
-  <div className="dialog-backdrop" onClick={closeReserve} style={{ zIndex: "100", background: "rgba(16,19,14,.34)", backdropFilter: "blur(18px) saturate(140%)", WebkitBackdropFilter: "blur(18px) saturate(140%)", overflowY: "auto", padding: "clamp(12px,4vw,48px)", placeItems: "start center" }}>
+  <div className="dialog-backdrop" onClick={closeReserve} style={{ zIndex: "100", background: "rgba(16,19,14,.34)", backdropFilter: "blur(18px) saturate(140%)", WebkitBackdropFilter: "blur(18px) saturate(140%)", overflowY: "auto", overscrollBehavior: "contain", padding: "max(clamp(12px,4vw,48px), env(safe-area-inset-top)) max(clamp(12px,4vw,48px), env(safe-area-inset-right)) max(clamp(12px,4vw,48px), env(safe-area-inset-bottom)) max(clamp(12px,4vw,48px), env(safe-area-inset-left))", placeItems: "start center" }}>
     <div role="dialog" aria-modal="true" aria-labelledby="rsv-title" onClick={stop} onKeyDown={trap} style={{ width: "min(680px,100%)", margin: "auto 0", background: "rgba(244,246,241,.66)", backdropFilter: "blur(44px) saturate(190%)", WebkitBackdropFilter: "blur(44px) saturate(190%)", border: "1px solid rgba(255,255,255,.8)", borderRadius: "clamp(22px,3vw,32px)", boxShadow: "inset 0 1px 0 #fff,inset 0 -1px 0 rgba(255,255,255,.4),0 40px 120px rgba(10,12,9,.35)", color: "#191D16", padding: "clamp(22px,4vw,44px)", boxSizing: "border-box" }}>
       
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", paddingBottom: "24px", borderBottom: "1px solid var(--color-divider)" }}>

@@ -113,7 +113,7 @@ button[disabled] { cursor: progress; }
 @media (max-width: 899.98px) {
   .v-dsk { display: none; }
   .v-mob { display: contents; }
-  :root { --deck-h: 40svh; }
+  :root { --deck-h: max(150px, min(40svh, calc(100svh - 430px))); }
   .footer-home { --footer-pad: 88px; }
 }
 
@@ -170,3 +170,41 @@ button[disabled] { cursor: progress; }
   .book-name { font-size: 21px !important; overflow-wrap: anywhere; }
   .book-note { font-size: 13px !important; line-height: 1.4 !important; }
 }
+
+/* — touch devices (iOS Safari, Android Chrome) — */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+a, button, label, input, textarea { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+/* Horizontal strips: swiping them must not trigger browser back/forward gestures. */
+#ora-strip, [data-cat-nav], .h-scroll { overscroll-behavior-x: contain; }
+.dialog-backdrop { -webkit-overflow-scrolling: touch; }
+/* Keep every content column clear of the notch / Dynamic Island in landscape. */
+div[style*="max-width: 1600px"] {
+  padding-left: max(clamp(20px, 3.2vw, 48px), env(safe-area-inset-left)) !important;
+  padding-right: max(clamp(20px, 3.2vw, 48px), env(safe-area-inset-right)) !important;
+}
+
+/* Events on phones: a little less top space so the deck keeps its size. */
+@media (max-width: 899.98px) {
+  .ev-wrap { padding-top: 80px !important; }
+}
+
+/* — landscape phones (iOS + Android, any width): pinned scenes only have ~360-430px
+     of height, so secondary layers step aside and every headline and button fits. — */
+@media (orientation: landscape) and (max-height: 500px) {
+  [data-hero-section] { min-height: 0 !important; }
+  [data-hero-copy] { padding-top: 84px !important; padding-bottom: 16px !important; gap: 14px !important; }
+  [data-hero-in="3"], [data-hero-in="6"] { display: none !important; }
+  [data-hero-section] h1 { font-size: clamp(34px, 11svh, 56px) !important; }
+  #room { min-height: 0 !important; }
+  #kitchen .ex-text p, #kitchen .ex-card { display: none !important; }
+  #kitchen h2 { font-size: clamp(30px, 9svh, 48px) !important; }
+  #transition [data-tr-w1], #transition [data-tr-w2] { font-size: clamp(56px, 22svh, 120px) !important; }
+  #transition [data-tr-w1] + [data-tr-w2], #transition div:has(> [data-tr-w1]) { height: clamp(48px, 20svh, 104px) !important; }
+  .ev-deck, #events ol, #events p { display: none !important; }
+  .ev-wrap { padding-top: 76px !important; }
+  #events h2 { font-size: clamp(30px, 9svh, 48px) !important; }
+}
+
+/* Sticky booking bar stays a compact pill on wide phones held sideways. */
+.sticky-cta { max-width: 520px; margin-inline: auto; }

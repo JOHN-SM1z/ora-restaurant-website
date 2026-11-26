@@ -7,7 +7,7 @@ export default function Header() {
   const { t, lang, showStickyCta, navLinks, langs, menuOpen, navBg, navLine, navInk, toggleMenu, goHome, openReserve } = useOra();
   return (
 <header style={{ position: "fixed", top: "0", left: "0", right: "0", zIndex: "50", background: `${navBg}`, backdropFilter: "blur(24px) saturate(180%)", WebkitBackdropFilter: "blur(24px) saturate(180%)", borderBottom: `1px solid ${navLine}`, color: `${navInk}`, transition: "background-color .6s ease,color .6s ease,border-color .6s ease" }}>
-  <div style={{ maxWidth: "1600px", margin: "0 auto", padding: "0 clamp(20px,3.2vw,48px)", boxSizing: "border-box", height: "72px", display: "flex", alignItems: "center", gap: "clamp(16px,2.6vw,40px)" }}>
+  <div style={{ maxWidth: "1600px", margin: "0 auto", padding: "0 max(clamp(20px,3.2vw,48px), env(safe-area-inset-right)) 0 max(clamp(20px,3.2vw,48px), env(safe-area-inset-left))", boxSizing: "border-box", height: "72px", display: "flex", alignItems: "center", gap: "clamp(16px,2.6vw,40px)" }}>
     <a href={`/${lang}`} onClick={goHome} aria-label="ORA" data-magnet="1" style={{ color: "inherit", textDecoration: "none", display: "flex", alignItems: "center", marginRight: "auto", minHeight: "44px" }}>
       <span style={{ fontFamily: "var(--font-display)", fontSize: "21px", fontWeight: "500", letterSpacing: ".36em", lineHeight: "1", marginRight: "-.36em" }}>ORA</span>
     </a>

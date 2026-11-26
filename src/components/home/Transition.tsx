@@ -6,7 +6,7 @@ export default function Transition() {
   const { t } = useOra();
   return (
 <section id="transition" data-transition="1" data-screen-label="07 Day to evening" style={{ position: "relative", height: "260vh", background: "#1E241A", color: "#E3E8DE" }}>
-    <div style={{ position: "sticky", top: "0", height: "100vh", overflow: "hidden" }}>
+    <div style={{ position: "sticky", top: "0", height: "100svh", overflow: "hidden" }}>
       <video data-src="media/hero.mp4" data-full="1" poster="/media/posters/hero.webp" preload="none" aria-hidden="true" muted playsInline data-tr-day="1" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", display: "block" }}></video>
       <div data-tr-evening="1" style={{ position: "absolute", inset: "0", opacity: "0" }}><video data-src="media/evening.mp4" data-full="1" poster="/media/posters/evening.webp" preload="none" aria-hidden="true" muted playsInline style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", display: "block" }}></video></div>
       <div style={{ position: "absolute", inset: "0", background: "rgba(20,24,18,.34)" }}></div>

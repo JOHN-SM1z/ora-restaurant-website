@@ -16,7 +16,7 @@ export default function Hero() {
       <div style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "32px" }}>
         <div style={{ flex: "1 1 0", minWidth: "min(100%,320px)", display: "flex", flexDirection: "column", gap: "clamp(14px,2.4vh,28px)" }}>
           <p data-hero-in="0" style={{ margin: "0", fontFamily: "var(--font-display)", fontSize: "13px", fontWeight: "500", letterSpacing: ".04em", lineHeight: "1.3", color: "#E6EBE0" }}>{t.heroKicker}</p>
-          <h1 data-drift="1" style={{ margin: "0", fontFamily: "var(--font-display)", fontWeight: "300", fontSize: "clamp(46px,min(8vw,13vh),148px)", lineHeight: ".92", letterSpacing: "-.045em", textWrap: "balance" }}>
+          <h1 data-drift="1" style={{ margin: "0", fontFamily: "var(--font-display)", fontWeight: "300", fontSize: "clamp(46px,min(8vw,13svh),148px)", lineHeight: ".92", letterSpacing: "-.045em", textWrap: "balance" }}>
             <span style={{ display: "block", overflow: "hidden", paddingBottom: ".24em", marginBottom: "-.24em" }}><span data-hero-mask="1" style={{ display: "block" }}>{t.heroTitle1}</span></span>
             <span style={{ display: "block", overflow: "hidden", paddingBottom: ".24em", marginBottom: "-.24em" }}><span data-hero-mask="2" style={{ display: "block" }}><em style={{ fontStyle: "italic", fontWeight: "300" }}>{t.heroTitle2}</em></span></span>
           </h1>

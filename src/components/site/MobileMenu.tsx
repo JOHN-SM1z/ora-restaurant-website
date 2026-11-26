@@ -8,7 +8,7 @@ export default function MobileMenu() {
   if (!menuOpen) return null;
   return (
 <>
-  <div id="ora-mobile-menu" role="dialog" aria-modal="true" aria-label={t.a11y.mobileNav} style={{ position: "fixed", inset: "0", zIndex: "60", background: "#252C1F", color: "#E3E8DE", display: "flex", flexDirection: "column", padding: "0 20px calc(24px + env(safe-area-inset-bottom))", overflowY: "auto", boxSizing: "border-box" }}>
+  <div id="ora-mobile-menu" role="dialog" aria-modal="true" aria-label={t.a11y.mobileNav} style={{ position: "fixed", inset: "0", zIndex: "60", background: "#252C1F", color: "#E3E8DE", display: "flex", flexDirection: "column", padding: "0 max(20px, env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left))", overflowY: "auto", overscrollBehavior: "contain", boxSizing: "border-box" }}>
     <div style={{ height: "72px", flexShrink: "0", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
       <span style={{ fontFamily: "var(--font-display)", fontSize: "21px", fontWeight: "500", letterSpacing: ".36em", lineHeight: "1", marginRight: "-.36em" }}>ORA</span>
       <button type="button" onClick={toggleMenu} aria-label={t.a11y.close} autoFocus style={{ background: "none", border: "0", color: "#E3E8DE", width: "44px", height: "44px", display: "grid", placeItems: "center", cursor: "pointer", padding: "0" }}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" style={{ strokeWidth: "1.5", strokeLinecap: "round" }}><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg></button>
